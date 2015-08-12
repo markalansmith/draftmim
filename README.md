@@ -1,3 +1,3 @@
 # draftmim
 
-draftmim is a prototype site for aggregeating NBA draft information.
+draftmim is a prototype site for aggregating NBA draft information.
