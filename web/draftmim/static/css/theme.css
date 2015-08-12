@@ -1,0 +1,117 @@
+/* @override 
+	http://localhost:9000/styles/theme.css */
+body {
+	padding-top: 50px;
+}
+
+.avatar {
+	width: 8em;
+}
+.navbar-brand img {
+	height: 30px;
+    margin-top: -5px;
+}
+
+.container.container-full {
+	padding: 0px;
+}
+
+/* @group Home Page Stuff */
+.draftmim-home .jumbotron {
+	margin-bottom: 0;
+}
+
+/* Panoramas for big screens */
+@media ( min-width : 480px) {
+	.draftmim-home .jumbotron.panorama {
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+                background-image: url('/static/img/panoramas/basketball_panorama.jpg');
+	}
+	.draftmim-home .jumbotron.panorama h1 {
+		color: #fff;
+		text-shadow: black 0.1em 0.1em 0.2em
+	}
+}
+
+@media ( min-width : 768px) {
+	.nav>li>a.fa {
+		padding-right: 5px;
+		padding-left: 5px;
+	}
+}
+
+.draftmim-home .jumbotron.off {
+	background: rgba(255, 255, 255, .95)
+}
+
+.draftmim-home a.fa {
+	margin-right: .2em;
+}
+
+.draftmim-home a.fa:hover {
+	text-decoration: none;
+}
+/* @end */
+.mug-container {
+	background: #fff;
+	padding: .25em;
+	border-radius: 6px;
+	position: relative;
+}
+.mug-container img.defaultAvatar {
+	position: relative;
+	z-index: 1;
+}
+.mug-container .logoBlock{
+	background-color:#0C0F13;
+	position: absolute;
+	top: 7px;
+	left: 17px;
+	width: 22px;
+	height: 12px;
+	border-radius: 2px;
+}
+
+.mug-container .mug {
+	width: 3.5em;
+}
+
+.player-header-bio {
+	margin-left: .5em;
+}
+
+.player-header-bio h3 {
+	margin: .5em 0 .1em 0;
+}
+
+.developer-info {
+	border-bottom: 1px dashed #ccc;
+	margin-bottom: 1em;
+}
+
+.accordion-toggle {
+	cursor: pointer;
+}
+
+.filterBox {
+	border-top: 1px solid #fff;
+	border-left: 1px solid #fff;
+	padding: .5em 2.25em 0 .5em;
+	height: 2.5em;
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+}
+
+.filterBox.last {
+	border-right: 1px solid #fff;
+}
+
+.filterBox .filterLabelContainer {
+	max-width: 9em;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	padding-bottom: .5em;
+}
